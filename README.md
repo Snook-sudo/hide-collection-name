@@ -13,4 +13,10 @@ Hide collection name and overlay buttons
 
 2. Within Plugins > JS Injector, add a script, name it "Hide-collection-name" or similar for reference, then paste the raw code of the jellyfin-hide-collection-name.js file in this project, then save.
 
-3. Hard refresh your browser (ctrl + f5, shift + refresh, or clear site data) and test!
+You will find 2 js files:
+1. "jellyfin-hide-collection-name.js" hides names and also overlay buttons
+2. "jellyfin-hide-collection-name-over.js" hides names and keeps buttons overlayed
+
+Both scripts remove the names under the collections, the difference is in hiding the buttons
+
+5. Hard refresh your browser (ctrl + f5, shift + refresh, or clear site data) and test!
